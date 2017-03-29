@@ -1,0 +1,24 @@
+name: Twig var extension
+version: 0.1 
+description: "Access object properties from Twig"
+icon: empire
+author:
+  name: Tuukka Norri
+  email: tsnorri@iki.fi
+  url: http://github.com/tsnorri
+keywords: plugin
+license: MIT
+
+form:
+  validation: strict
+  fields:
+    enabled:
+        type: toggle
+        label: Plugin status
+        highlight: 1
+        default: 1
+        options:
+            1: Enabled
+            0: Disabled
+        validate:
+            type: bool
