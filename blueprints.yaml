@@ -1,12 +1,15 @@
-name: Twig var extension
-version: 0.1 
-description: "Access object properties from Twig"
-icon: empire
+name: Twig var Extension
+version: 0.1.0 
+description: Access PHP object properties from Twig
+icon: plug
 author:
   name: Tuukka Norri
   email: tsnorri@iki.fi
   url: http://github.com/tsnorri
+homepage: https://github.com/tsnorri/grav-twig-var-plugin
 keywords: plugin
+bugs: https://github.com/tsnorri/grav-plugin-twig-var-extension/issues
+docs: https://github.com/tsnorri/grav-plugin-twig-var-extension/blob/develop/README.md
 license: MIT
 
 form:
